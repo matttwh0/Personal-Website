@@ -131,17 +131,20 @@ main.row {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 20px;
 }
+.title {
+    align-items: left;
+    padding: 0px 0px 30px 60px;
+}
 .col .title{
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: gray;
-    padding: 0px 0px 20px 30px;
+    
 }
 
 /*vertical lines on timeline*/
 .col .contents{
     padding: 0px 30px;
     border-left: 2px solid #bababa;
-
 }
 
 .col .contents .box{
@@ -166,7 +169,7 @@ main.row {
     height: 16px;
     border-radius: 50%;
     right: calc(100% + 24px);
-    top: 0;
+    top: 1;
     background-color: gray;
     border: 2px solid white;
 }
